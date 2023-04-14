@@ -50,14 +50,14 @@ const Home = () => {
                         .filter((article) => {
                             return article.category === "bollywood";
                         })
-                        .map((item) => (
+                        .map((n) => (
                             <CardHome
-                                key={item.id}
-                                articleid={item.id}
-                                imgUrl={item.img}
-                                title={item.title}
-                                description={item.description.slice(0, 200)}
-                                author={item.author}
+                                key={n.id}
+                                articleid={n.id}
+                                imgUrl={n.img}
+                                title={n.title}
+                                description={n.description.slice(0, 200)}
+                                author={n.author}
                             />
                         ))}
                 </div>
@@ -66,14 +66,14 @@ const Home = () => {
                         .filter((article) => {
                             return article.category === "technology";
                         })
-                        .map((item) => (
+                        .map((n) => (
                             <CardHome
-                                key={item.id}
-                                articleid={item.id}
-                                imgUrl={item.img}
-                                title={item.title}
-                                description={item.description.slice(0, 200)}
-                                author={item.author}
+                                key={n.id}
+                                articleid={n.id}
+                                imgUrl={n.img}
+                                title={n.title}
+                                description={n.description.slice(0, 200)}
+                                author={n.author}
                             />
                         ))}
                 </div>
@@ -82,14 +82,14 @@ const Home = () => {
                         .filter((article) => {
                             return article.category === "food";
                         })
-                        .map((item) => (
+                        .map((n) => (
                             <CardHome
-                                key={item.id}
-                                articleid={item.id}
-                                imgUrl={item.img}
-                                title={item.title}
-                                description={item.description.slice(0, 200)}
-                                author={item.author}
+                                key={n.id}
+                                articleid={n.id}
+                                imgUrl={n.img}
+                                title={n.title}
+                                description={n.description.slice(0, 200)}
+                                author={n.author}
                             />
                         ))}
                 </div>
@@ -105,14 +105,14 @@ const Home = () => {
                         .filter((article) => {
                             return article.category === "mix";
                         })
-                        .map((item) => (
+                        .map((n) => (
                             <Card
-                                key={item.id}
-                                articleid={item.id}
-                                imgUrl={item.img}
-                                title={item.title}
-                                description={item.description.slice(0, 200)}
-                                author={item.author}
+                                key={n.id}
+                                articleid={n.id}
+                                imgUrl={n.img}
+                                title={n.title}
+                                description={n.description.slice(0, 200)}
+                                author={n.author}
                             />
                         ))}
                 </div>
@@ -121,14 +121,14 @@ const Home = () => {
                         .filter((article) => {
                             return article.category === "mix";
                         })
-                        .map((item) => (
+                        .map((n) => (
                             <SmallCard
-                                key={item.id}
-                                articleid={item.id}
-                                imgUrl={item.img}
-                                description={item.description.slice(0, 200)}
-                                title={item.title.slice(0, 25)}
-                                author={item.author}
+                                key={n.id}
+                                articleid={n.id}
+                                imgUrl={n.img}
+                                description={n.description.slice(0, 200)}
+                                title={n.title.slice(0, 25)}
+                                author={n.author}
                             />
                         ))}
 
@@ -146,14 +146,14 @@ const Home = () => {
                         .filter((article) => {
                             return article.category === "footer1";
                         })
-                        .map((item) => (
+                        .map((n) => (
                             <CardHome
-                                key={item.id}
-                                articleid={item.id}
-                                imgUrl={item.img}
-                                title={item.title}
-                                description={item.description.slice(0, 200)}
-                                author={item.author}
+                                key={n.id}
+                                articleid={n.id}
+                                imgUrl={n.img}
+                                title={n.title}
+                                description={n.description.slice(0, 200)}
+                                author={n.author}
                             />
                         ))}
                 </div>
@@ -163,14 +163,14 @@ const Home = () => {
                         .filter((article) => {
                             return article.category === "footer2";
                         })
-                        .map((item) => (
+                        .map((n) => (
                             <CardHome
-                                key={item.id}
-                                articleid={item.id}
-                                imgUrl={item.img}
-                                title={item.title}
-                                description={item.description.slice(0, 200)}
-                                author={item.author}
+                                key={n.id}
+                                articleid={n.id}
+                                imgUrl={n.img}
+                                title={n.title}
+                                description={n.description.slice(0, 200)}
+                                author={n.author}
                             />
                         ))}
                 </div>
@@ -180,14 +180,14 @@ const Home = () => {
                         .filter((article) => {
                             return article.category === "footer3";
                         })
-                        .map((item) => (
+                        .map((n) => (
                             <CardHome
-                                key={item.id}
-                                articleid={item.id}
-                                imgUrl={item.img}
-                                title={item.title}
-                                description={item.description.slice(0, 200)}
-                                author={item.author}
+                                key={n.id}
+                                articleid={n.id}
+                                imgUrl={n.img}
+                                title={n.title}
+                                description={n.description.slice(0, 200)}
+                                author={n.author}
                             />
                         ))}
                 </div>

@@ -15,7 +15,7 @@ const Details = (props) => {
             "id": 51,
             "title": "Amitabh Bachchanr",
             "img": "https://media.gettyimages.com/photos/indian-actor-amitabh-bachchan-poses-on-the-red-carpet-for-the-4th-picture-id97942617?k=20&m=97942617&s=612x612&w=0&h=sjWZ5uQGKCfe3xuaEnbRluarZVhCinXidBwJjJaUtho=",
-            "category": "Bollywood",
+            "category": "bollywood",
             "description": "Amitabh Bachchan was born on October 11, 1942 in Allahabad, British India (present-day Prayagraj, Uttar Pradesh, India) to legendary poet Harivansh Rai Bachchan & Teji Bachchan. He also has a brother named Ajitabh. He completed his education from Uttar Pradesh and moved to Bombay to find work"
         },
         {
@@ -198,11 +198,11 @@ const Details = (props) => {
             "id": 52,
             "title": "Why I fell in love with Microsoft’s Surface Laptop Studio despite its shortcomings ",
             "img": "https://images.indianexpress.com/2022/05/K1.jpg",
-            "category": "Technology",
+            "category": "technology",
             "description": "As I was waiting for someone at a Delhi hotel recently, I saw a gentleman coming my way. He sat next to me and curiously asked about the laptop I was using. “It’s a Surface Laptop Studio,” I replied. “Does Microsoft make its own laptops?” He admitted he wasn’t aware of the Surface brand but told me he liked the form factor of the Surface Laptop Studio. “It’s different from my MacBook Pro,” said the man who introduced himself as the owner of an architectural firm. This conversation just reinforced my belief that there will be takers for Microsoft’s experimental Surface Laptop Studio, which blends certain elements of the desktop Surface Studio and the premium 2-in-1 Surface Book. It’s a mobile workstation that’s also a sketching slate and a portable home theater. I have been using the Surface Laptop Studio for a few days, and I am in love with this device even though it is not perfect. Here is my review."
         },
         {
-            "id": 55,
+            "id": 22,
             "title": " electric car, battery electric car",
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/2018_Nissan_Leaf_2.Zero_Front.jpg/338px-2018_Nissan_Leaf_2.Zero_Front.jpg",
             "category": "Technology",
@@ -394,11 +394,11 @@ const Details = (props) => {
             "id": 46,
             "title": "Biryani",
             "img": "https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe-500x500.jpg",
-            "category": "Food",
+            "category": "food",
             "description": "Biryani  is a mixed rice dish originating among the Muslims of the Indian subcontinent. It is made with Indian spices, rice, and usually some type of meat (chicken, beef, goat, lamb, prawn, fish) or in some cases without any meat, and sometimes, in addition, eggs and potatoes.[1]Biryani is one of the most popular dishes in South Asia, as well as among the diaspora from the region. Similar dishes are also prepared in other parts of the world such as in Iraq, Thailand, and Malaysia.[2] Biryani is the single most-ordered dish on Indian online food ordering and delivery services."
         },
         {
-            "id": 40,
+            "id": 46,
             "title": "Kebab",
             "img": "https://static.toiimg.com/thumb/58360750.cms?imgsize=347996&width=800&height=800",
             "category": "Food",
