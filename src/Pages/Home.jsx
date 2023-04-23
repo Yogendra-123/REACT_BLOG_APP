@@ -42,8 +42,8 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-
-                <h1 style={{ marginTop: "40px" }}>The Latest</h1>
+                <div className="home_div">
+                <h1 style={{ marginTop: "40px" }} className="div_heading">The Latest</h1>
                 <hr style={{ width: "200px", thickness: "20px" }} />
                 <div className="home__left left1">
                     {detail
@@ -190,6 +190,7 @@ const Home = () => {
                                 author={n.author}
                             />
                         ))}
+                    </div>
                 </div>
             </div>
         </div>
